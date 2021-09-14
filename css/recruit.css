@@ -1,0 +1,193 @@
+.header_recruit{
+  background-image: url(../img/recruit.png);
+  background-size: cover;
+}
+
+.recruit_top_list{
+  margin: 100px 0;
+  display: flex;
+  width: 100%;
+}
+
+.batako01{
+  width: 33.3%;
+  height: 300px;
+  background-image: url(../img/member.png);
+  background-size: cover;
+  background-position: center;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.batako02{
+  width: 33.3%;
+  height: 300px;
+  background-image: url(../img/intern.png);
+  background-size: cover;
+  background-position: center;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.batako03{
+  width: 33.3%;
+  height: 300px;
+  background-image: url(../img/top.png);
+  background-size: cover;
+  background-position: center;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.recruit_top_list li a{
+  font-size: 36px;
+  color: #ff8856;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.intern h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+}
+
+.intern h1 span{
+  color: #ff8856;
+}
+
+.intern h1 small{
+  font-size: 30px;
+}
+
+.recruit_intern{
+  width: 50%;
+  margin: 50px auto;
+  border: solid 2px #555;
+}
+
+.recruit_intern h2{
+  font-size: 25px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  bottom:30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.recruit_intern p{
+  font-weight: bold;
+  padding: 15px 0 0 30px;
+}
+
+.recruit_intern ul{
+  padding: 50px;
+}
+
+.recruit_intern ul li{
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.recruit_intern .btn{
+  background-color: yellow;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.recruit_intern .btn:hover{
+  opacity: 0.6;
+}
+
+.intern_intro{
+  display: flex;
+  align-items: center;
+  margin: 180px 0;
+}
+
+.intro_txt{
+  width: 45%;
+  padding: 0 100px 50px 100px;
+}
+
+.intro_txt h2{
+  font-size: 30px;
+  line-height: 1;
+  color: #555;
+  margin-bottom:  40px;
+}
+
+.intro_txt h2 small{
+  font-size: 15px;
+  color: #ff8856;
+}
+
+.intro_descript{
+  font-size: 13px;
+  letter-spacing: 5px;
+  line-height: 2.5;
+  color: #555;
+}
+
+.discussion_talk h2{
+  font-size: 50px;
+  color: #ff8856;
+  text-align: center;
+}
+
+.discussion_inner{
+  width: 85%;
+  margin: 60px auto;
+}
+
+.discussion_inner h3{
+  font-size: 20px;
+  text-align: center;
+}
+
+.discussion_inner h3 span{
+  color: #ff8856;
+  margin-right: 10px;
+}
+
+.discussion_content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.discussion_image{
+  width: 50%;
+}
+
+.discussion_image img{
+  height: 350px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.discussion_image p{
+  text-align: center;
+}
+
+.discussion_txt{
+  width: 50%;
+  background-color: #eee;
+  padding: 50px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}

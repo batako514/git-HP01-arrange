@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.business_top_list{
+  display: flex;
+  justify-content: center;
+}
+
+.business_top_list li{
+  margin:0 25px 80px 25px;
+}
+
+.business_top_list li a{
+  font-weight: bold;
+}
+
+.business_top_list li span{
+  display: block;
+  text-align: center;
+  color: #ff8856;
+}
+
+.business_list{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.business_item{
+  margin: 60px 0;
+  border: solid 2px #111;
+  padding: 50px;
+}
+
+.business_item h2{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 70px;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 55%;
+  text-align: center;
+}
+
+.business_item h3{
+  font-size: 20px;
+  margin-top: -30px;
+  color: #ff8856;
+}
+
+.business_item p{
+  line-height: 2.5;
+  font-weight: bold;
+}
+
+.letter{
+  width: 90%;
+  margin: 180px auto 0;
+}
+
+.letter_inner{
+  display: flex;
+}
+
+.letter_left{
+  width: 50%;
+  margin-right: 4%;
+}
+
+.letter_left h2{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.letter_left h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff8856;
+  margin-bottom: 30px;
+}
+
+.letter_left p{
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.letter_right{
+  width: 46%;
+  position: relative;
+  top:-60px;
+}
+
+.letter_right img{
+  width: 100%;
+}
+
+.letter_bg{
+  width: 80%;
+  background-color: #eee;
+  height: 450px;
+  position: relative;
+  bottom: 450px;
+  z-index: -1;
+}
+
+.contact{
+  margin-top: -350px;
+}
